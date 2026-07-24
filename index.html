@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main project stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <title>Hero's Roll</title>
+</head>
+<body>
+    <!-- Sky clouds backdrop container -->
+    <div class="sky-clouds">
+        <!-- Slow moving cloud asset 1 -->
+        <div class="cloud cloud-1">☁️</div>
+        <!-- Slow moving cloud asset 2 -->
+        <div class="cloud cloud-2">☁️</div>
+    </div>
+
+    <!-- Master container console chassis -->
+    <div class="game-wrapper">
+        <!-- Header block title -->
+        <header class="rpg-header">
+            <h1 class="rpg-title">HERO'S ROLL</h1>
+        </header>
+
+        <!-- Status bar displaying player attempts and score -->
+        <div class="status-bar">
+            <!-- Heart counter display group -->
+            <div class="status-left">
+                <span class="status-icon">💖</span>
+                <span id="hearts-count">10</span>
+            </div>
+            <!-- Coin counter display group -->
+            <div class="status-right">
+                <span class="status-icon">🪙</span>
+                <span id="coins-count">0</span>
+            </div>
+        </div>
+
+        <!-- Upper status/victory message readout screen -->
+        <div id="message">ROLL THE REELS TO BEGIN</div>
+
+        <!-- Main cabinet container enclosing three isolated reel boxes -->
+        <div class="slot-machine" id="machine">
+            <!-- Left-hand reel box -->
+            <div class="reel" id="reel1"></div>
+            <!-- Middle reel box -->
+            <div class="reel" id="reel2"></div>
+            <!-- Right-hand reel box -->
+            <div class="reel" id="reel3"></div>
+        </div>
+
+        <!-- Action panel wrapping the main roll actuator -->
+        <div class="action-panel">
+            <button id="handle" class="rpg-roll-btn">ROLL</button>
+        </div>
+    </div>
+
+    <!-- Grounded landscape camp deck extension directly beneath console -->
+    <div class="camp-deck">
+        <!-- Grounded sword decor -->
+        <span class="decor-item sword-item">⚔️</span>
+        <!-- Grounded shield decor -->
+        <span class="decor-item shield-item">🛡️</span>
+        <!-- Grounded campfire decor -->
+        <span class="decor-item bonfire-item">🔥</span>
+        <!-- Grounded loot chest decor -->
+        <span class="decor-item chest-item">🧰</span>
+    </div>
+
+    <!-- Core game engine controller -->
+    <script src="script.js"></script>
+</body>
+</html>
