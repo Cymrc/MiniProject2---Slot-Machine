@@ -4,6 +4,12 @@
 
 ---
 
+## 🔗 Live Demo
+
+- **Play Online:** [Hero's Roll Live Preview](https://cymrc.github.io/MiniProject2---Slot-Machine/)
+
+---
+
 ## 🎨 Visual Theme Details
 
 This project utilizes a soft indie cozy RPG beach aesthetic. It trades harsh digital neon glow effects and corporate dark modes for warm sand tones, layered blue ocean waves drawn in CSS, terracotta buttons, and rounded chocolate-brown chassis borders. Flanking decorative campsite gear reinforces the RPG environment.
